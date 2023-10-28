@@ -14,5 +14,6 @@ const enum Week {
 }
 
 function isWeekend(day: Week): boolean {
-  return day === (Week.Sa || Week.Su);
+  // return day === (Week.Sa || Week.Su);
+  return day === Week.Sa || day === Week.Su;
 }
